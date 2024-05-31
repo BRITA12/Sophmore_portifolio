@@ -4,13 +4,11 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-body
-{
+body{
   min-height: 100vh;
   background-color: linear-greadient( #ffb6c1, #800080);
 }
-header
-{
+header{
   position: absolute;
   top: 0;
   Left: 0;
@@ -20,8 +18,7 @@ header
   justify-content: space-between;
   align-items: center;
 }
-header .logo
-{
+header .logo{
   color: #ffffff;
   font-weight: 700;
   text-decoration: none;
@@ -29,27 +26,26 @@ header .logo
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-header ul
-{
+header ul{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-header ul li
-{
+header ul li{
   list-style: none;
   margin-left: 20px;
 }
-header ul li a
-{
+header ul li a{
   text-decoration: none;
   padding: 6px 15px;
   color: #ffffff;
   border-radius: 20px;
 }
-header ul li a:hover
-header ul li a.active
-{
+header ul li a:hover{
+  background-color: #ffffff;
+  color: #ffb6c1 ;
+} 
+header ul li a.active{
   background-color: #ffffff;
   color: #ffb6c1 ;
 }
