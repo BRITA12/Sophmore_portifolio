@@ -1,14 +1,16 @@
 . {
   margin: 0;
-  Padding: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-body{
+body
+{
   min-height: 100vh;
-  backgground: linear-greadient( pink, purple);
+  background: linear-greadient( pink, purple);
 }
-header{
+header
+{
   position: absolute;
   top: 0;
   Left: 0;
@@ -18,7 +20,8 @@ header{
   justify-content: space-between;
   align-items: center;
 }
-header .logo{
+header .logo
+{
   color: white;
   font-weight: 700;
   text-decoration: none;
@@ -26,15 +29,27 @@ header .logo{
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-header ul{
+header ul
+{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-header ul il{
+header ul li
+{
   list-style: none;
   margin-left: 20px;
 }
-header ul li a{
+header ul li a
+{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: white;
+  border-radius: 20px;
+}
+header ul li a:hover
+{
+  background: white;
+  color: pink;
 }
   
