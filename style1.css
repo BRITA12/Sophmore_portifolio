@@ -48,6 +48,7 @@ header ul li a
   border-radius: 20px;
 }
 header ul li a:hover
+header ul li a.active
 {
   background: white;
   color: pink;
