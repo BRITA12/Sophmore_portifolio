@@ -7,7 +7,7 @@
 body
 {
   min-height: 100vh;
-  background: linear-greadient( pink, purple);
+  background: linear-greadient( #ffb6c1, #800080);
 }
 header
 {
@@ -22,7 +22,7 @@ header
 }
 header .logo
 {
-  color: white;
+  color: #ffffff;
   font-weight: 700;
   text-decoration: none;
   font-size: 2em;
@@ -50,7 +50,7 @@ header ul li a
 header ul li a:hover
 header ul li a.active
 {
-  background: white;
-  color: pink;
+  background: #ffffff;
+  color: #ffb6c1 ;
 }
   
