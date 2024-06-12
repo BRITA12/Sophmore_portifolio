@@ -6,7 +6,9 @@ html,body{
 
 h1{
 	font-size: 10vw;
-  text-shadow: #ec69d4 ;
+text-transform: capitalize;
+  text-shadow: 1px 1px white ;
+	font-family: Fantasy;
   
 }
 .container{
