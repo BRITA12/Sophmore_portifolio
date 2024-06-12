@@ -1,16 +1,9 @@
 html,body{
 	height: 99%;
 	width: 99%;
+	background-color: Pink;
 }
 
-.banner{
-	background-color: rgba(251, 197, 182 );
-	text-transform: capitalize;
-  text-shadow: 1px 1px #ec69d4 ;
-	font-family: Fantasy;
-	height: 120px;
-	font-style: oblique;
-}
 h1{
 	font-size: 0.7em;
   text-shadow: #ec69d4 ;
