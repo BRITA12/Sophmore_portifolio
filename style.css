@@ -5,15 +5,9 @@ html,body{
 }
 
 h1{
-	font-size: 0.7em;
+	font-size: 10vw;
   text-shadow: #ec69d4 ;
   
-}
-
-#logo{
-	width: 100px;
-	position: absolute;
-	left: 50px;
 }
 .container{
 	border:2px #ec32dc solid;
