@@ -1,52 +1,71 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+html,body{
+	height: 99%;
+	width: 99%;
 }
-body{
-  min-height: 100vh;
-  background-color: linear-greadient( #ffb6c1, #800080);
+
+.banner{
+	background-color: rgba(251, 197, 182 );
+	margin: 15px;
+	padding: 10px;
+	border: 3px solid #f5eaf6;
+	box-shadow: 1px 3px 30px 1px #fb09df;
+	text-transform: capitalize;
+  text-shadow: 1px 1px #ec69d4 ;
+	font-family: Fantasy;
+	height: 120px;
+	text-align: right;
+	font-style: oblique;
+  background-image: url('background.jpg');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
 }
-header{
-  position: absolute;
-  top: 0;
-  Left: 0;
-  width: 100%;
-  padding: 30px 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-header .logo{
-  color: #ffffff;
-  font-weight: 700;
-  text-decoration: none;
-  font-size: 2em;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-header ul{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-header ul li{
-  list-style: none;
-  margin-left: 20px;
-}
-header ul li a{
-  text-decoration: none;
-  padding: 6px 15px;
-  color: #ffffff;
-  border-radius: 20px;
-}
-header ul li a:hover{
-  background-color: #ffffff;
-  color: #ffb6c1 ;
-} 
-header ul li a.active{
-  background-color: #ffffff;
-  color: #ffb6c1 ;
-}
+h1{
+	font-size: 0.7em;
+  text-shadow: #ec69d4 ;
   
+}
+
+#logo{
+	width: 100px;
+	position: absolute;
+	left: 50px;
+}
+.container{
+	border:2px #ec32dc solid;
+	position: relative;
+	top: 2px;
+	margin: 15px;
+	padding: 10px;
+	height: 700px;
+	overflow: hidden;
+	background-color: rgba(195, 155, 211 );
+  
+    background-image: url('background.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+.wave{
+	border: #ea90d2 1px solid;
+	color: #faf4f4;
+	text-align: center;
+	background-color: rgba(255,34,45, 0.5);
+	font-size: 0.9em;
+	height: 25px;
+	overflow: hidden;
+	width: 80%;
+	position:relative;
+	left: 10%;
+	transition: height 4s;
+	display:block;
+}
+#l1{
+  border:#c463c5
+  background-image:repeating-linear-gradient(#CD5C5C,#F08080);
+}
+.wave:hover{
+	height:90%;
+	top:1px;
+	z-index:1;
+}
