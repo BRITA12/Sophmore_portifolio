@@ -4,11 +4,16 @@ html,body{
 	background-color: Pink;
 }
 
-h1{
+p{
 	font-size: 10vw;
 text-transform: capitalize;
   text-shadow: 1px 1px white ;
 	font-family: Fantasy;
+  
+}
+h1{
+	font-size: 0.7em;
+  text-shadow: #ec69d4 ;
   
 }
 .container{
